@@ -7,6 +7,7 @@ function NotFound() {
     useEffect(() => {
         setTimeout(() => {
             navigate("/");
+            // navigate(-1); // will redirect to previous page
         }, 2000);
     }, []);
     return <div>NotFound</div>;
